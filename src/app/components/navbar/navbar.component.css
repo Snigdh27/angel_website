@@ -1,0 +1,45 @@
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: rgb(255, 10, 10);
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+nav.scrolled {
+  background-color: black;
+}
+
+nav .logo img {
+  height: 50px;
+  transition: height 0.3s ease;
+}
+
+nav.scrolled .logo img {
+  height: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(253, 24, 24);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #4caf50;
+}

@@ -1,0 +1,32 @@
+.cover {
+  position: relative;
+  height: 100vh;
+  background: url('https://images.pexels.com/photos/1323206/pexels-photo-1323206.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')
+    no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.home-logo {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+#about,
+#products,
+#contact {
+  padding: 50px 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,11 @@
+<nav [class.scrolled]="isScrolled" id="navbar">
+  <div class="logo">
+    <img [src]="logo" alt="Logo" *ngIf="isScrolled" />
+  </div>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+</nav>
